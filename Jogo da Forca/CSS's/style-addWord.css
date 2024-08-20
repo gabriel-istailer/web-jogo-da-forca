@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(125, 110, 85), rgb(90, 70, 50));
+}
+
+#title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 100px;
+    text-shadow: 1px 1px white;
+    padding: 25px;
+    background-color: rgb(90, 60, 35);
+    border: solid 2px rgb(80, 55, 0);
+    border-radius: 30px;
+    box-shadow: 0px 3px 3px 3px black;
+    transition: 0.5s;
+}
+#title:hover{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 105px;
+    text-shadow: 1px 1px white;
+    padding: 30px;
+    background-color: rgb(90, 60, 35);
+    border: solid 4px rgb(80, 55, 0);
+    border-radius: 30px;
+    box-shadow: 0px 5px 5px 5px black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textWord{
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    font-size: 55px;
+    background-color: rgb(90, 70, 50);
+    border-radius: 50px;
+    border: solid 5px rgb(50, 30, 0);
+    transition: 0.5s;
+}
+#textWord:hover{
+    padding: 20px; 
+    font-size: 58px;
+    box-shadow: 0px 2px 2px 2px black;
+}
+#textWord:focus{
+    background-color: rgb(70, 50, 30);
+    padding: 15px;
+    font-size: 55px;
+    outline: 0;
+    box-shadow: none;
+}
+
+#infoLevel{
+    font-size: 25px;
+}
+#levelWord{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#addWord{
+    width: 652px;
+    padding: 20px;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(55, 30, 0);
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(90, 70, 50);
+    border-radius: 20px;
+    border: solid 5px rgb(50, 30, 0);
+    transition: 0.5s;
+}
+#addWord:hover{
+    background-color: rgb(70, 50, 30);
+    padding: 20px;
+    font-size: 60px;
+    color: rgb(25, 15, 0);
+    box-shadow: 0px 2px 2px 2px black;
+}
+
+#removeWord{
+    width: 652px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(55, 0, 0);
+    margin: 20px;
+    padding: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(90, 50, 50);
+    border-radius: 20px;
+    border: solid 5px rgb(50, 0, 0);
+    transition: 0.5s;
+}
+#removeWord:hover{
+    background-color: rgb(70, 30, 30);
+    padding: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 35px;
+    color: rgb(25, 0, 0);
+    box-shadow: 0px 2px 2px 2px black;
+}
+
+#goBack{
+    width: 652px;
+    padding: 20px;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(210, 210, 210);
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 20px;
+    border: solid 5px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+#goBack:hover{
+    background-color: rgb(10, 10, 10);
+    padding: 20px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px 2px black;
+}
+
+.easy{
+    color: rgb(0, 255, 0);
+}
+.medium{
+    color: rgb(0, 0, 255);
+}
+.hard{
+    color: rgb(255, 0, 0);
+}

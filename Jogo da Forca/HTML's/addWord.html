@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar palavras - Jogo da Forca</title>
+    <link rel="stylesheet" href="../CSS's/style-addWord.css">
+</head>
+
+<body>
+
+    <h1 id="title" onclick="history.back()">Jogo da Forca</h1>
+
+    <form>
+        <input type="text" id="textWord" placeholder="cadeira">
+        <p id="linfoLevel">Nível onde a palavra poderá ser encontrada:</p>
+        <p id="levelWord">-</p>
+        <input type="button" id="addWord" value="Adicionar palavra">
+        <input type="button" id="removeWord" value="Deletar a última palavra adicionada">
+        <input onclick="history.back()" type="button" id="goBack" value="<">
+    </form>
+
+    <script type="module" src="../JavaScript's/script-addWord.js"></script>
+</body>
+
+</html>

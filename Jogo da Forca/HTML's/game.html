@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+
+    <link rel="stylesheet" href="../CSS's/style-game.css">
+
+</head>
+
+<body>
+    
+    <h1 id="title" onclick="history.back()">Jogo da Forca<br><p id="modeTitle"></p></h1>
+
+    <form>
+        <div class="divInput">
+            <input type="text" id="guessLetter" placeholder="J">
+            <input type="button" id="sendGuessLetter" value="Advinhar letra">
+        </div>
+
+        <input type="text" id="guessWord" placeholder="roteiro">
+        <input type="button" id="sendGuessWord" value="Adivinhar palavra">
+        
+        <p id="infoGame">-</p>
+
+        <p id="viewWord"></p>
+        <p id="infoWord">Letras: 4</p>
+
+        <img src="../Contents/frame 0.png" id="img">
+        <p id="infoLife">Vidas: 6</p>
+
+        <input type="button" id="restartGame" value="Reiniciar jogo" onclick="location.reload()">
+        <input type="button" id="leaveGame" value="Sair do jogo" onclick="history.back()">
+    </form>
+
+    <script type="module" src="../JavaScript's/script-game.js"></script>
+</body>
+
+</html>
